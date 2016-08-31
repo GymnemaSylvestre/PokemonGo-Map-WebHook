@@ -7,26 +7,22 @@ Reciever for PokemonGo-Map WebHook
 本ツールはPokemonGo-Map(Reborn)のWebHook機能によるプッシュ通知を受信し、
 指定したメールアドレスへ"ポケモン"の出現を通知する。  
 なお、現在はTLS通信を使用しているメールサービスのみ動作する(GMailとOutlook.comのみ動作確認済)  
-* *  
-* *  
+**  
+**  
 ## Requirement
 [http-parser](https://pypi.python.org/pypi/http-parser/ "http-parser")を利用している
   
   
 ## Install
-1.[PokemonGo-Map](https://github.com/PokemonGoMap/PokemonGo-Map "PokemonGo-Map")が起動できる状態にする  
-  
-2."pip install http-parser"を実行  
+1. [PokemonGo-Map](https://github.com/PokemonGoMap/PokemonGo-Map "PokemonGo-Map")が起動できる状態にする  
+2. "pip install http-parser"を実行  
   
   
 ## Usage
-1."config.ini"に通知したいメールアドレスとそのSMTPサーバに関する情報を入力します。  
-  
-2."NoticePokemon.csv"で通知する"ポケモン"を設定します。通知する場合は"1"、通知しない場合は"0"を各行の3番目の要素に入力します。編集は"Excel"とか矩形選択できる"秀丸"使うと捗ります(私が使っているのはExcelもどきですがｗ)  
-  
-3."python WebHookReciever.py"を実行します。これで"PokemonGo-Map(Reborn)"からの通信を待っている状態になります。  
-  
-4."PokemonGo-Map(Reborn)"を起動します。起動オプションに"-wh `http://127.0.0.1:41111`"と"--webhook-updates-only"を入れることを忘れないでください。それと複垢の場合は"--webhook-updates-only"と"--db-threads"と"--db-max_connections"も入れておいた方が良いかもしれません(複垢でテストしていないので必要性があるか確証ないですが)。取り敢えず2か3あたり指定しておけば安心かも。  
+1. "config.ini"に通知したいメールアドレスとそのSMTPサーバに関する情報を入力します。  
+2. "NoticePokemon.csv"で通知する"ポケモン"を設定します。通知する場合は"1"、通知しない場合は"0"を各行の3番目の要素に入力します。編集は"Excel"とか矩形選択できる"秀丸"使うと捗ります(私が使っているのはExcelもどきですがｗ)  
+3. "python WebHookReciever.py"を実行します。これで"PokemonGo-Map(Reborn)"からの通信を待っている状態になります。  
+4. "PokemonGo-Map(Reborn)"を起動します。起動オプションに"-wh `http://127.0.0.1:41111`"と"--webhook-updates-only"を入れることを忘れないでください。それと複垢の場合は"--webhook-updates-only"と"--db-threads"と"--db-max_connections"も入れておいた方が良いかもしれません(複垢でテストしていないので必要性があるか確証ないですが)。取り敢えず2か3あたり指定しておけば安心かも。  
   
   
 **GMailを使用する場合**  
