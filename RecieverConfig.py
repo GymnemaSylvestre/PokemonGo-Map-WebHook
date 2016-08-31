@@ -1,3 +1,10 @@
+""" [NAME] Config of Tool.
+
+[DESCRIPTION] INI File wo parse shimasu.
+"""
+__author__	= "GymnemaSylvestre"
+__version__	= "1.0.0"
+
 from __future__ import print_function
 import ConfigParser
 

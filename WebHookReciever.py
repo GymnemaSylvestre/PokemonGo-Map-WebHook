@@ -1,3 +1,10 @@
+""" [NAME] Reciever for PokemonGo-Map WebHook.
+
+[DESCRIPTION] main()desu.
+"""
+__author__	= "GymnemaSylvestre"
+__version__	= "1.0.0"
+
 from __future__ import print_function
 import socket
 import select
@@ -47,7 +54,7 @@ def main():
 	try:
 		server_sock.bind((recieverConfig.getConfigHost(), int(recieverConfig.getConfigPort())))
 		server_sock.listen(backlog)
-
+		
 		while True:
 			readable, writable, exceptional = select.select(inputs, [], [])
 			
