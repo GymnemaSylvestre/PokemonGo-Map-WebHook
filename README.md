@@ -7,8 +7,9 @@ Reciever for PokemonGo-Map WebHook
 本ツールはPokemonGo-Map(Reborn)のWebHook機能によるプッシュ通知を受信し、
 指定したメールアドレスへ"ポケモン"の出現を通知する。  
 なお、現在はTLS通信を使用しているメールサービスのみ動作する(GMailとOutlook.comのみ動作確認済)  
-![ ]()  
-![ ]()  
+   
+   
+   
 ## Requirement
 [http-parser](https://pypi.python.org/pypi/http-parser/ "http-parser")を利用している
   
