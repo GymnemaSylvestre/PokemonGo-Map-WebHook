@@ -11,7 +11,7 @@ Reciever for PokemonGo-Map WebHook
 <br>
 
 ## Requirement
-[http-parser](https://pypi.python.org/pypi/http-parser/ "http-parser")を利用している
+[http-parser](https://pypi.python.org/pypi/http-parser/ "http-parser")を利用している  
 <br>
 
 ## Install
@@ -30,7 +30,7 @@ Reciever for PokemonGo-Map WebHook
 Googleからログインをブロックした旨のメールが飛んでくると思うので、
 その中段あたりの"ログインしようとしましたか？"の項の文中にある"安全性の低いアプリへのアクセスを許可"のリンクに飛び、許可の設定をしてください。  
 以降はWebHookによるメールが受信できます。事前にGoogleのアカウント設定からこの設定をしてもOKです。  
-ちなみにOutlook.comは何も要らなかったので、捨て垢取って使うのもありかもしれません。
+ちなみにOutlook.comは何も要らなかったので、捨て垢取って使うのもありかもしれません。  
 <br>
 
 ## Other
