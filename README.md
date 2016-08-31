@@ -4,21 +4,25 @@ Reciever for PokemonGo-Map WebHook
 <img src="images/demo01.png" width="30%">
 <br>
 <br>
+
 ## Description
 本ツールはPokemonGo-Map(Reborn)のWebHook機能によるプッシュ通知を受信し、
 指定したメールアドレスへ"ポケモン"の出現を通知する。  
 なお、現在はTLS通信を使用しているメールサービスのみ動作する(GMailとOutlook.comのみ動作確認済)  
 <br>
 <br>
+
 ## Requirement
 [http-parser](https://pypi.python.org/pypi/http-parser/ "http-parser")を利用している
 <br>
 <br>
+
 ## Install
 1. [PokemonGo-Map](https://github.com/PokemonGoMap/PokemonGo-Map "PokemonGo-Map")が起動できる状態にする  
 2. "pip install http-parser"を実行  
 <br>
 <br>
+
 ## Usage
 1. "config.ini"に通知したいメールアドレスとそのSMTPサーバに関する情報を入力します。  
 2. "NoticePokemon.csv"で通知する"ポケモン"を設定します。通知する場合は"1"、通知しない場合は"0"を各行の3番目の要素に入力します。編集は"Excel"とか矩形選択できる"秀丸"使うと捗ります(私が使っているのはExcelもどきですがｗ)  
@@ -33,6 +37,7 @@ Googleからログインをブロックした旨のメールが飛んでくる�
 ちなみにOutlook.comは何も要らなかったので、捨て垢取って使うのもありかもしれません。
 <br>
 <br>
+
 ## Other
 Reborn版？すげえ！  
 WebHookもできんの？すげえ！  
