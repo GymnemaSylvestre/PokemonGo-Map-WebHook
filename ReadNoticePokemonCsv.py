@@ -2,8 +2,6 @@
 
 [DESCRIPTION] CSV wo parse shimasu.
 """
-__author__	= "GymnemaSylvestre"
-__version__	= "1.0.0"
 
 from __future__ import print_function
 import csv
@@ -42,4 +40,6 @@ class ReadNoticePokemonCsv:
 		return self.dictPokemonName.get(str(id)).strip()
 	
 
+__author__	= "GymnemaSylvestre"
+__version__	= "1.0.0"
 

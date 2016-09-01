@@ -2,8 +2,6 @@
 
 [DESCRIPTION] main()desu.
 """
-__author__	= "GymnemaSylvestre"
-__version__	= "1.0.0"
 
 from __future__ import print_function
 import socket
@@ -106,4 +104,6 @@ def main():
 if __name__ == '__main__':
 	main()
 
+__author__	= "GymnemaSylvestre"
+__version__	= "1.0.0"
 

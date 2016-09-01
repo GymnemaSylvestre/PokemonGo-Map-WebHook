@@ -2,8 +2,6 @@
 
 [DESCRIPTION] Mail no honbun ha kokodetsukuru.
 """
-__author__	= "GymnemaSylvestre"
-__version__	= "1.0.0"
 
 from __future__ import print_function
 import smtplib
@@ -58,6 +56,8 @@ class SendEmail:
 		
 	
 
+__author__	= "GymnemaSylvestre"
+__version__	= "1.0.0"
 
 
 
